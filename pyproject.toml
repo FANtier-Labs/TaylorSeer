@@ -10,6 +10,7 @@ dependencies = ["diffusers>=0.42.1", "torch>=2.14.1", "torchvision>=0.29.1"]
 
 [project.optional-dependencies]
 eval = [
+    "setuptools>=80,<81",
     "torchmetrics>=1.6,<2",
     "transformers>=5,<6",
     "image-reward==1.5",
